@@ -1,0 +1,23 @@
+# Traitement d'images et détection (YOLOv5 via torch.hub)
+torch
+torchvision
+opencv-python
+numpy
+pandas
+pillow
+pyyaml
+requests
+scipy
+seaborn
+matplotlib
+tqdm
+psutil
+thop
+gitpython
+ultralytics
+# Liaison série avec l'Arduino
+pyserial
+# Variables d'environnement (.env)
+python-dotenv
+# Reconnaissance faciale (optionnelle, option --faces) : nécessite dlib/CMake
+# face_recognition

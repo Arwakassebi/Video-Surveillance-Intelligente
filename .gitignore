@@ -1,0 +1,19 @@
+# Secrets
+.env
+# Données personnelles : photos de visages, images capturées, vidéos
+known_faces/*/
+captures/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+!docs/**
+# Poids de modèles
+*.pt
+# Python
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
