@@ -99,7 +99,6 @@ Test du parseur (sans matériel) : `python -m unittest discover -s tests`
 
 - À 320×240, les visages sont petits : la reconnaissance faciale est plus fiable en 640×480 (voir le commentaire dans le `.ino`), au prix d'un transfert plus lent (115200 bauds).
 - Une personne de dos ou au visage non visible est considérée comme « inconnue » avec `--faces`.
-- Le code Arduino n'a pas pu être testé automatiquement ; seul le traitement Python des images est couvert par un test.
 
 ## Sécurité et vie privée
 
