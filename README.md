@@ -100,10 +100,7 @@ Test du parseur (sans matériel) : `python -m unittest discover -s tests`
 - À 320×240, les visages sont petits : la reconnaissance faciale est plus fiable en 640×480 (voir le commentaire dans le `.ino`), au prix d'un transfert plus lent (115200 bauds).
 - Une personne de dos ou au visage non visible est considérée comme « inconnue » avec `--faces`.
 
-## Sécurité et vie privée
 
-- Ne jamais publier `.env` (mot de passe e-mail) ni les photos de `known_faces/` : ils sont dans `.gitignore`.
-- Les images et vidéos capturées peuvent contenir des personnes identifiables : ne pas les versionner.
 
 ## Licence
 
